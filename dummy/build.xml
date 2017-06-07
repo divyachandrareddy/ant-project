@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<project name="force" default="run">
+
+<target name="info">
+<echo> info </echo>
+</target>
+
+<target name="clean" >
+<echo> clean </echo>
+</target>
+
+<target name="compile">
+<echo> compile </echo>
+</target>
+
+<target name="run"  depends="clean,compile,info,jar">
+<echo> run </echo>
+</target>
+
+<target name="jar" >
+<echo> jar </echo>
+</target>
+</project>
